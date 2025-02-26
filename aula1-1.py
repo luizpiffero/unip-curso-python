@@ -1,4 +1,9 @@
-#o \n serve para pular a linha
+"""o \n serve para pular a linha no meio de uma sentença, exemplo:
+    o comando >         print("linha 1", "\n", "linha 2")
+    gera o resultado >  linha 1
+
+                        linha 2
+"""
 
 #local de input dos dados
 a = float(input("Digite o valor para a letra A: "))
@@ -33,3 +38,13 @@ if a != b:
     print("O A é diferente de B")
 else:
     print("O A é igual ao B")
+    
+#valida se o número está dentro de um range de números
+if a >= 10:
+    print("O número é A maior ou igual a 10.")
+elif a >= 7:
+    print ("O número A é maior ou igual a 7.")
+elif a >=4:
+    print("O número A é maior ou igua a 4.")
+else:
+    print("O número A é menor que 4.")
